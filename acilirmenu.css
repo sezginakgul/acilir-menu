@@ -1,0 +1,47 @@
+body {
+  font-size: 1.1rem;
+}
+
+.solmenu {
+  background-color: rgb(255, 179, 56);
+  height: 100vw;
+  width: 20vw;
+  position: absolute;
+  top: 0;
+  left: -17vw;
+  transition: left 1s;
+}
+
+.solmenu:hover {
+  left: 0;
+}
+
+.solmenu .title {
+  position: relative;
+  background-color: rgb(184, 113, 0);
+  padding: 0.3rem;
+  color: white;
+}
+
+.solmenu .title i {
+  position: absolute;
+  right: 0.5rem;
+  transition: transform 1s;
+}
+
+.solmenu:hover i {
+  transform: rotate(180deg);
+}
+
+.solmenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.solmenu ul a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.7rem;
+}
